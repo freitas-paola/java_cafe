@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Java Café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title">Java Café</h1>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#about-us">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#products">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#store">Lojas</a>
+            </li>
+            <li class="nav-item">
+              <a href="#form">Seja um Franqueado</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="about-us">
+      <div class="container about-us-container">
+        <div class="images-container">
+          <img
+            src="./images/header2.avif"
+            alt="Display de produtos em uma cafeteria"
+          />
+          <img
+            src="./images/header1.avif"
+            alt="Mesa com xícara de café, copo de café e prato com pedaço de torta"
+          />
+        </div>
+        <div class="text-container">
+          <h2 class="section-title">Quem somos</h2>
+          <p class="text-box">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quo
+            provident fugit totam laudantium excepturi, molestiae cumque,
+            consectetur ratione nulla consequatur id amet nam numquam assumenda
+            porro veritatis debitis culpa.
+          </p>
+          <p class="text-box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
+            facilis, ut repellat quasi asperiores inventore voluptas nisi nam
+            itaque, repellendus dignissimos ducimus labore fugit aperiam veniam
+            laudantium ipsa obcaecati maxime.
+          </p>
+          <div class="social-media-container">
+            <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-whatsapp"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="products">
+      <div class="products-container">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="products">
+          <div class="item">
+            <img
+              src="./images/produto1.png"
+              alt="Copo de vidro com bebida a base de café"
+            />
+            <button>Eu quero</button>
+          </div>
+          <div class="item">
+            <img src="./images/produto2.png" alt="Xícara com espresso" />
+            <button>Eu quero</button>
+          </div>
+          <div class="item">
+            <img src="./images/produto3.png" alt="Xícara com cappuccino" />
+            <button>Eu quero</button>
+          </div>
+          <div class="item">
+            <img
+              src="./images/produto4.png"
+              alt="Copo de plástico com bebida a base de café"
+            />
+            <button>Eu quero</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="store">
+      <div class="store-container">
+        <div class="store-text">
+          <h2 class="section-title">Nossas Lojas</h2>
+          <p><ion-icon class="icon" name="pin"></ion-icon> São Paulo</p>
+          <address>Av. Paulista, 2023</address>
+          <p><ion-icon class="icon" name="pin"></ion-icon> Rio de Janeiro</p>
+          <address>R. Frei Caneca, 109</address>
+          <p><ion-icon class="icon" name="pin"></ion-icon> Salvador</p>
+          <address>R. do Paraíso, 42</address>
+        </div>
+        <div class="store-img">
+          <img src="./images/nossas-lojas.avif" alt="Foto da Cafeteria" />
+        </div>
+      </div>
+    </section>
+    <section id="form">
+      <div class="form-container">
+        <div class="form-img">
+          <img
+            src="./images/header3.png"
+            alt="Três mãos segurando xícaras de café"
+          />
+        </div>
+        <div>
+          <h2 class="section-title">Seja um Franqueado</h2>
+          <form>
+            <input type="text" placeholder="Seu Nome" required />
+            <input type="email" placeholder="Seu E-mail" required />
+            <input type="tel" placeholder="Seu Telefone (opcional)" />
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="container">
+        <p>&copy; Java Café - Todos os direitos reservados - 2023</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
